@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+void add(int s)
+{
+    int sum=0;
+    for(int i=1;i<=s;i++)
+    {
+    sum=sum+i;
+    }
+    cout<<sum;
+}
+int main()
+{
+    int n;
+    cin>>n;
+    add(n);
+    return 0;
+}
